@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Menu = () => {
-  return;
+  return (
   <>
     <div id="caja_menu" style={{ textAlign: 'left' }}>
       <strong className="h3">Bienvenido Usuario :</strong>
@@ -49,5 +49,6 @@ export const Menu = () => {
         </div>
       </nav>
     </div>
-  </>;
+  </>
+  );
 };
